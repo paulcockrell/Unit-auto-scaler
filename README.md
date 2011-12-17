@@ -47,12 +47,14 @@ If you want to add new units to the gem, then ammend the file <path to gem sourc
 
 ## Installation
 
-Install the gem
+### Install the gem
+
 Change to the directory where you downloaded the gem source to and run the command:
 
         sudo gem install unit_auto_scaler-0.0.0.gem 
 
-Test the gem
+### Test the gem
+
 Change to the directory where you downloaded the gem source to and run the command:
 
         ./test.rb
