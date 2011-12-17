@@ -6,7 +6,7 @@ Example:
 We have a number of an unknown size. The number is a value measured in Watts. We have a known limited amount of space in which we can display this value, lets say 6 characters long (3 whole numbers, a decimal point and 2 decimal places).
 
 ```ruby
-	irb> 55678934.watts.autoscale :size=>3, :precision=>2
+        irb> 55678934.watts.autoscale :size=>3, :precision=>2
         irb> [55.68, :megawatts] 
 ```
 So now our number and its units are automatically scaled to the correct value and units based on the constraints placed upon it.
@@ -43,16 +43,16 @@ If you want to add new units to the gem, then ammend the file <path to gem sourc
 
 ## Requirements
 
-* Ruby 1.9.2 (1.8.7 may work, too)
+* Ruby 1.8 >
 
 ## Installation
 
 Install the gem
+Change to the directory where you downloaded the gem source to and run the command:
 
-        Change to the directory where you downloaded the gem source to and run the command:
-	sudo gem install unit_auto_scaler-0.0.0.gem 
+        sudo gem install unit_auto_scaler-0.0.0.gem 
 
 Test the gem
+Change to the directory where you downloaded the gem source to and run the command:
 
-        Change to the directory where you downloaded the gem source to and run the command:
-	./test.rb
+        ./test.rb
