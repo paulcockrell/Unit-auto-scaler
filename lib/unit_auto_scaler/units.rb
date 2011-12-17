@@ -30,7 +30,7 @@ class UnitAutoScaler
 
     add_unit  :megawatt, :power, 1000 ** 2
     add_alias :megawatt, :megawatts, true, false
-    add_alias :megawatt, :mW, false, true
+    add_alias :megawatt, :MW, false, true
 
   end
 end
